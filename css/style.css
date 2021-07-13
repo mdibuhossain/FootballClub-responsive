@@ -70,6 +70,9 @@ header{
 }
 
 /* Article section */
+.blog_section{
+    margin-top: 70px;
+}
 .blogs{
     display: grid;
     width: 1065px;
@@ -92,6 +95,7 @@ header{
 /* Highlights Section */
 .highlights{
     width: 100%;
+    margin-top: 165px;
 }
 .highlight{
     width: 1065px;
@@ -113,18 +117,20 @@ header{
 
 /* Footer Section */
 footer{
+    margin-top: 158px;
     padding-bottom: 63px;
 }
 .footer_items{
     width: 483px;
     margin: auto;
 }
-.footer_items img, p{
+.footer_items img, .footer_items p{
     text-align: center;
     width: 100%;
 }
 .social_link{
     display: flex;
+    width: 100%;
     justify-content: center;
     margin: 20px 0;
 }
