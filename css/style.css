@@ -109,5 +109,26 @@ header{
 .highlights_item img{
     width: 510px;
     height: auto;
+}
 
+/* Footer Section */
+footer{
+    padding-bottom: 63px;
+}
+.footer_items{
+    width: 483px;
+    margin: auto;
+}
+.footer_items img, p{
+    text-align: center;
+    width: 100%;
+}
+.social_link{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.social_link img{
+    width: 32px;
+    margin: 0 7px;
 }
