@@ -76,10 +76,20 @@ nav ul li a{
     display: inline-block;
     padding: 10px 0px;
     color: whitesmoke;
+    position: relative;
     transition: all 0.4s ease-in-out;
 }
-nav ul li a:hover{
-    color: #C0D636;
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: whitesmoke;
+    transition: all 0.5s ease-in-out;
+}
+nav ul li a:hover::after{
+    width: 100%;
 }
 #login_btn{
     display: inline-block;
