@@ -1,6 +1,11 @@
 /* Font style */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+:root{
+    --bgColor: #2D25A0;
+    --btnColor: #E02C6D;
+}
+
 /* Universal style */
 *{
     margin: 0;
@@ -80,7 +85,7 @@ nav ul li a:hover{
 #login_btn{
     display: inline-block;
     color: whitesmoke;
-    background-color: #E02C6D;
+    background-color: var(--btnColor);
     padding: 10px 27px;
 }
 
@@ -90,7 +95,7 @@ header{
     width: 100%;
     padding-top: 42px;
     height: 677px;
-    background-color: #2D25A0;
+    background-color: var(--bgColor);
 }
 .banner{
     display: flex;
@@ -104,7 +109,7 @@ header{
 .banner_item a, .highlights_item a{
     display: inline-block;
     color: whitesmoke;
-    background-color: #E02C6D;
+    background-color: var(--btnColor);
     margin-top: 27px;
     padding: 10px 24px;
 }
@@ -167,7 +172,7 @@ header{
     width: 100%;
     height: auto;
     padding: 50px 0;
-    background-color: #2D25A0;
+    background-color: var(--bgColor);
 }
 .main_logo{
     width: 100%;
