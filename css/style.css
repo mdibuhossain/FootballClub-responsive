@@ -30,6 +30,7 @@ a{
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 500;
 }
 p{
     font-size: 16px;
@@ -39,9 +40,56 @@ ul{
     list-style-type: none;
 }
 
+
+/* Navigation Bar */
+label, #nav_toggle{
+    display: none;
+}
+label{
+    font-size: 24px;
+    color: whitesmoke;
+}
+#nav_toggle{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+    margin-bottom: 49px;
+    padding: 0 16px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 36px;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0px;
+    color: whitesmoke;
+    transition: 0.2s ease-in-out;
+}
+nav ul li a:hover{
+    color: #C0D636;
+    transition: 0.4s ease-in-out;
+}
+#login_btn{
+    display: inline-block;
+    color: whitesmoke;
+    background-color: #E02C6D;
+    padding: 10px 27px;
+}
+
+
 /* Header section */
 header{
     width: 100%;
+    padding-top: 42px;
     height: 677px;
     background-color: #2D25A0;
 }
@@ -138,3 +186,39 @@ footer{
     width: 32px;
     margin: 0 7px;
 }
+
+
+
+/*----------------------
+        Media Query
+ -----------------------*/
+
+ /* Laptop Screen 1024px */
+ @media (max-width:1024px){
+    nav {
+    width: 100%;
+    }
+     .banner_item{
+         width: 50%;
+     }
+     .banner_item img {
+         width: 100%;
+        height: auto;
+     }
+     .blogs{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+    .highlight{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 29px;
+        place-items: center;
+    }
+ }
+
+ /* Tablet - 768px */
+ 
