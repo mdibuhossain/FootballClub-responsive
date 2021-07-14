@@ -169,13 +169,21 @@ header{
     padding-bottom: 40px;
     background-color: #2D25A0;
 }
+.main_logo{
+    width: 100%;
+    text-align: center;
+}
+.main_logo img{
+    max-width: 300px;
+    height: auto;
+}
 .sponsors_logo{
     width: 95%;
     margin: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .sponsors_logo a{
     margin: 0 30px;
@@ -193,7 +201,6 @@ header{
     width: 100%;
     margin: auto;
 }
-
 
 /* Footer Section */
 footer{
@@ -388,6 +395,12 @@ footer{
         width: 100%;
     }
     .highlights_item img{
+        width: 100%;
+    }
+    .main_logo{
+        width: 100%;
+    }
+    .main_logo img{
         width: 100%;
     }
     .footer_items{
