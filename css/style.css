@@ -162,6 +162,39 @@ header{
     height: auto;
 }
 
+/* Sponsors Logo Section */
+.sponsors{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    background-color: #2D25A0;
+}
+.sponsors_logo{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.sponsors_logo a{
+    margin: 0 30px;
+}
+.sponsors_logo a img{
+    width: 60px;
+}
+.league{
+    width: 160px;
+    margin: auto;
+    padding-top: 35px;
+
+}
+.league img{
+    width: 100%;
+    margin: auto;
+}
+
+
 /* Footer Section */
 footer{
     margin-top: 158px;
@@ -186,6 +219,15 @@ footer{
     width: 32px;
     margin: 0 7px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
