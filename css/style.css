@@ -240,6 +240,45 @@ header{
     height: auto;
 }
 
+/* Fixtures Section */
+.fixtures{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    margin-top: 150px;
+    padding: 0 16px;
+}
+.fixtures_items{
+    display: flex;
+    justify-content: space-between;
+    width: 1070px;
+    margin: auto;
+    box-shadow: 0 0 30px rgba(211, 211, 211, 0.432);
+}
+.fixt_item{
+    display: flex;
+    align-items: center;
+    margin: 10px 30px;
+}
+.fixt_item:nth-child(2){
+    display: flex;
+    align-items: center;
+    margin: 10px 100px;
+}
+.fixt_item:nth-child(2) div{
+    margin-left: 50px;
+    text-align: center;
+}
+.fixt_team_logo{
+    width: 50px;
+}
+.fixt_league_logo{
+    width: 150px;
+}
+
+
+
 /* Sponsors Logo Section */
 .sponsors{
     width: 100%;
@@ -361,6 +400,12 @@ footer{
     .highlights_item img{
         width: 100%;
     }
+    .fixtures{
+        width: 100%;
+    }
+    .fixtures_items{
+        width: 100%;
+    }
 }
 
 /* Tablet - 768px */
@@ -431,6 +476,14 @@ footer{
     .highlights_item img{
         width: 100%;
     }
+    .fixtures{
+        width: 100%;
+    }
+    .fixtures_items{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Mobile screen 425px */
@@ -482,6 +535,23 @@ footer{
     }
     .highlights_item img{
         width: 100%;
+    }
+    .fixtures{
+        width: 100%;
+    }
+    .fixtures_items{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fixt_item:nth-child(2) {
+        margin: 15px 0;
+    }
+    .fixt_team_logo{
+        width: 100px;
+    }
+    .fixt_league_logo{
+        width: 200px;
     }
     .main_logo{
         width: 100%;
